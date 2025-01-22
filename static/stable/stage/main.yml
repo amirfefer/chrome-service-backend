@@ -4,59 +4,9 @@ acs:
     versions:
       - v1
 
-advisor:
-  title: Advisor
-  api:
-    versions:
-      - v1
-    apiName: insights
-
-automation-analytics:
-  title: Automation Analytics
-  api:
-    versions:
-      - v1
-    isBeta: true
-
-automation-hub:
-  title: Automation Hub
-  api:
-    versions:
-      - v3
-
-ccx:
-  title: OpenShift Insights
-  api:
-    subItems:
-      insights-results-aggregator:
-        title: Insights Results Aggregator
-        versions:
-          - v2
-          - v1
-      gathering:
-        title: Insights Operator Gathering Conditions Service
-        versions:
-          - v1
-          - v2
-      ocp-vulnerability:
-        title: Vulnerability
-        versions:
-          - v1
-
-compliance:
-  title: Compliance
-  api:
-    versions:
-      - v1
 
 content-sources:
   title: Repositories
-  api:
-    versions:
-      - v1
-
-cost-management:
-  title: Cost Management
   api:
     versions:
       - v1
@@ -73,13 +23,6 @@ export:
   api:
     versions:
       - v1
-
-idmsvc:
-  title: "Directory and Domain Services"
-  api:
-    versions:
-      - v1
-    isBeta: true
 
 image-builder:
   title: Image Builder
@@ -100,11 +43,6 @@ integrations:
     versions:
       - v1
 
-inventory:
-  title: Managed Inventory
-  api:
-    versions:
-      - v1
 
 notifications:
   title: Notifications
@@ -112,12 +50,6 @@ notifications:
     versions:
       - v1
       - v2
-
-openshift:
-  title: OpenShift (OCM)
-  api:
-    versions:
-      - v1
 
 onboarding:
   title: Onboarding Test
@@ -194,59 +126,6 @@ application-services:
   api:
     isBeta: true
 
-patch:
-  title: Patch
-  api:
-    versions:
-      - v3
-
-playbook-dispatcher:
-  title: Playbook Dispatcher
-  api:
-    versions:
-      - v1
-
-policies:
-  title: Policies
-  api:
-    versions:
-      - v1
-
-rbac:
-  title: Role-based Access Control
-  api:
-    versions:
-      - v1
-
-connector:
-  title: Red Hat Connector
-  api:
-    versions:
-      - v2
-    apiName: config-manager
-
-remediations:
-  title: Remediations
-  api:
-    versions:
-      - v1
-
-ros:
-  title: Resource Optimization
-  api:
-    versions:
-      - v1
-
-ruledev:
-  title: Rule Development
-  api:
-    versions:
-      - v1
-    isBeta: true
-    tags:
-      - value: "experimental"
-        title: "Experimental API"
-
 sources:
   title: Sources
   api:
@@ -260,34 +139,8 @@ starter:
       - v1
     apiName: insights
 
-subscriptions:
-  title: Subscriptions
-  api:
-    versions:
-      - v1
-    alias:
-      - rhsm-subscriptions
 
-tasks:
-  title: Tasks
-  api:
-    versions:
-      - v1
 
-vulnerability:
-  title: Vulnerability Management
-  api:
-    versions:
-      - v1
 
-app-studio-docs:
-  title: App Studio Docs
-  api:
-    versions:
-      - v1
 
-malware-detection:
-  title: Malware Detection
-  api:
-    versions:
-      - v1
+

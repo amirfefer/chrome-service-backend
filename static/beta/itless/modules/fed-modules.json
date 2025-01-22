@@ -1,20 +1,4 @@
 {
-    "landing": {
-        "manifestLocation": "/apps/landing/fed-mods.json",
-        "defaultDocumentTitle": "Hybrid Cloud Console Home",
-        "modules": [
-            {
-                "id": "landing",
-                "module": "./RootApp",
-                "routes": [
-                    {
-                        "exact": true,
-                        "pathname": "/"
-                    }
-                ]
-            }
-        ]
-    },
     "userPreferences": {
         "manifestLocation": "/apps/user-preferences/fed-mods.json",
         "defaultDocumentTitle": "User Preferences | User Preferences",

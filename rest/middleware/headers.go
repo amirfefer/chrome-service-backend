@@ -11,6 +11,7 @@ import (
 func ParseHeaders(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		header := r.Header.Get(util.XRHIDENTITY)
+		logrus.Infof("Header: %s", header)
 		ctx := r.Context()
 		if header == "" {
 			errString := "Missing authentication"
