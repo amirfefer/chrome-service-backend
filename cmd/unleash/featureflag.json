@@ -1,7 +1,7 @@
 [
   {
     "name": "chrome-service.websockets.enabled",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "unit-test.true",
